@@ -1,0 +1,6 @@
+# New Security Information Registration
+
+index=cloudora sourcetype=cloudora:audit
+| search operation="RegisterSecurityInfo"
+| stats count by user, src_ip, device, target, action, result
+| sort - count

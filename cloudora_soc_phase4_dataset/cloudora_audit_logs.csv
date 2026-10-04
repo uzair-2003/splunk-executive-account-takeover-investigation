@@ -1,0 +1,167 @@
+timestamp,user,src_ip,operation,target,device,action,result,details,event_id
+2026-08-04T00:51:40Z,employee046@cloudora.example,192.0.2.10,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000046
+2026-08-04T01:24:22Z,employee025@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,MacBook Pro,Read,Success,Normal mailbox activity,AUD-000133
+2026-08-04T01:53:09Z,employee122@cloudora.example,192.0.2.11,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000136
+2026-08-04T02:35:03Z,employee023@cloudora.example,192.0.2.10,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000038
+2026-08-04T06:17:37Z,employee055@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000086
+2026-08-04T08:06:37Z,employee085@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000037
+2026-08-04T13:05:10Z,employee023@cloudora.example,198.51.100.10,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000112
+2026-08-04T14:14:42Z,daniel.reev@cloudora.example,192.0.2.11,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000158
+2026-08-04T15:22:06Z,employee041@cloudora.example,198.51.100.10,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000079
+2026-08-04T16:03:51Z,employee094@cloudora.example,192.0.2.11,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000069
+2026-08-04T19:36:33Z,employee098@cloudora.example,192.0.2.12,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000073
+2026-08-04T19:38:21Z,employee121@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000014
+2026-08-04T20:18:35Z,employee106@cloudora.example,192.0.2.12,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000101
+2026-08-04T23:06:07Z,employee006@cloudora.example,192.0.2.12,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000094
+2026-08-04T23:24:24Z,employee073@cloudora.example,192.0.2.12,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000036
+2026-08-05T00:49:55Z,employee049@cloudora.example,198.51.100.10,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000153
+2026-08-05T02:26:13Z,employee008@cloudora.example,198.51.100.10,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000039
+2026-08-05T02:27:04Z,daniel.reev@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000030
+2026-08-05T03:09:20Z,employee030@cloudora.example,198.51.100.11,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000088
+2026-08-05T03:40:27Z,priya.shah@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000134
+2026-08-05T05:06:25Z,employee054@cloudora.example,198.51.100.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000064
+2026-08-05T06:13:12Z,employee048@cloudora.example,192.0.2.10,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000140
+2026-08-05T07:35:18Z,employee064@cloudora.example,192.0.2.10,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000059
+2026-08-05T07:50:05Z,employee028@cloudora.example,198.51.100.10,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000085
+2026-08-05T08:02:32Z,employee011@cloudora.example,198.51.100.11,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000080
+2026-08-05T10:17:05Z,employee050@cloudora.example,198.51.100.11,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000004
+2026-08-05T10:47:54Z,employee092@cloudora.example,198.51.100.10,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000061
+2026-08-05T12:24:32Z,employee091@cloudora.example,192.0.2.10,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000126
+2026-08-05T13:15:30Z,employee128@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000122
+2026-08-05T13:55:01Z,employee100@cloudora.example,198.51.100.11,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000044
+2026-08-05T15:05:55Z,employee047@cloudora.example,192.0.2.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000050
+2026-08-05T15:30:52Z,employee078@cloudora.example,192.0.2.11,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000065
+2026-08-05T15:57:55Z,employee067@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000108
+2026-08-05T16:15:38Z,employee114@cloudora.example,192.0.2.11,GroupMembership,Project Team,Windows 11 Laptop,Add,Success,Routine project membership change,AUD-000066
+2026-08-05T17:43:35Z,employee135@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000012
+2026-08-05T18:28:22Z,employee030@cloudora.example,192.0.2.11,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000145
+2026-08-05T19:45:59Z,employee005@cloudora.example,198.51.100.10,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000054
+2026-08-05T20:49:46Z,employee077@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000006
+2026-08-06T01:53:51Z,employee013@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000034
+2026-08-06T03:21:09Z,employee007@cloudora.example,192.0.2.11,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000099
+2026-08-06T03:46:00Z,employee037@cloudora.example,198.51.100.11,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000015
+2026-08-06T04:28:59Z,employee068@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000152
+2026-08-06T05:25:47Z,employee053@cloudora.example,192.0.2.12,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000077
+2026-08-06T06:04:31Z,employee032@cloudora.example,198.51.100.11,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000032
+2026-08-06T08:12:34Z,employee060@cloudora.example,192.0.2.11,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000001
+2026-08-06T10:59:37Z,employee139@cloudora.example,192.0.2.12,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000100
+2026-08-06T11:22:59Z,employee098@cloudora.example,198.51.100.11,GroupMembership,Project Team,Windows 11 Laptop,Add,Success,Routine project membership change,AUD-000130
+2026-08-06T14:38:07Z,employee036@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000151
+2026-08-06T16:31:32Z,employee050@cloudora.example,198.51.100.10,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000005
+2026-08-06T17:32:05Z,employee017@cloudora.example,198.51.100.11,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000120
+2026-08-06T17:46:25Z,employee028@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000082
+2026-08-06T21:03:44Z,employee107@cloudora.example,198.51.100.11,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000026
+2026-08-06T22:20:42Z,employee054@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,Windows 11 Desktop,SignIn,Success,Normal device authentication,AUD-000055
+2026-08-06T22:44:00Z,employee030@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000114
+2026-08-07T00:35:59Z,employee131@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000040
+2026-08-07T01:31:23Z,employee026@cloudora.example,192.0.2.12,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000156
+2026-08-07T01:35:06Z,employee135@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,Windows 11 Desktop,SignIn,Success,Normal device authentication,AUD-000138
+2026-08-07T01:45:07Z,employee017@cloudora.example,198.51.100.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000106
+2026-08-07T03:09:40Z,employee095@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000084
+2026-08-07T04:30:58Z,employee118@cloudora.example,198.51.100.10,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000159
+2026-08-07T05:03:31Z,employee072@cloudora.example,198.51.100.10,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000147
+2026-08-07T06:03:35Z,employee019@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000121
+2026-08-07T08:09:16Z,employee121@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000129
+2026-08-07T09:40:52Z,employee098@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000071
+2026-08-07T10:17:53Z,employee020@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000051
+2026-08-07T11:01:29Z,employee011@cloudora.example,198.51.100.11,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000075
+2026-08-07T11:31:29Z,employee116@cloudora.example,198.51.100.10,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000013
+2026-08-07T11:40:44Z,employee132@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,MacBook Pro,Read,Success,Normal mailbox activity,AUD-000154
+2026-08-07T12:20:32Z,employee079@cloudora.example,192.0.2.12,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000067
+2026-08-07T12:52:03Z,daniel.reev@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000062
+2026-08-07T13:49:07Z,employee112@cloudora.example,192.0.2.11,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000092
+2026-08-07T15:20:57Z,employee061@cloudora.example,192.0.2.11,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000157
+2026-08-07T16:53:43Z,employee009@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000047
+2026-08-07T17:56:40Z,employee014@cloudora.example,192.0.2.12,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000107
+2026-08-07T18:10:51Z,employee089@cloudora.example,192.0.2.10,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000043
+2026-08-07T19:54:23Z,employee107@cloudora.example,192.0.2.12,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000041
+2026-08-07T20:08:27Z,employee098@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000072
+2026-08-07T22:02:52Z,employee144@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000028
+2026-08-07T22:13:15Z,employee134@cloudora.example,198.51.100.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000124
+2026-08-07T23:11:32Z,employee063@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000019
+2026-08-08T00:35:47Z,employee033@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000139
+2026-08-08T00:39:51Z,employee110@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000117
+2026-08-08T02:41:40Z,employee006@cloudora.example,192.0.2.11,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000021
+2026-08-08T03:40:51Z,employee079@cloudora.example,198.51.100.11,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000063
+2026-08-08T04:36:28Z,employee061@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000045
+2026-08-08T06:12:19Z,employee099@cloudora.example,198.51.100.10,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000137
+2026-08-08T06:59:14Z,employee023@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000109
+2026-08-08T07:31:10Z,employee124@cloudora.example,192.0.2.10,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000127
+2026-08-08T08:09:27Z,employee003@cloudora.example,192.0.2.12,FileAccess,SharePoint,Android Phone,Read,Success,Normal document access,AUD-000011
+2026-08-08T08:50:30Z,employee044@cloudora.example,192.0.2.12,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000087
+2026-08-08T09:04:59Z,employee029@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000018
+2026-08-08T10:10:08Z,employee126@cloudora.example,192.0.2.10,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000144
+2026-08-08T11:31:06Z,employee138@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000074
+2026-08-08T12:44:24Z,employee090@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000009
+2026-08-08T13:14:29Z,employee039@cloudora.example,192.0.2.12,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000102
+2026-08-08T13:16:47Z,employee122@cloudora.example,192.0.2.12,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000048
+2026-08-08T14:28:59Z,employee123@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000016
+2026-08-08T14:43:00Z,employee029@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000123
+2026-08-08T15:00:49Z,employee076@cloudora.example,192.0.2.10,GroupMembership,Project Team,Windows 11 Laptop,Add,Success,Routine project membership change,AUD-000119
+2026-08-08T18:58:47Z,employee099@cloudora.example,192.0.2.10,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000141
+2026-08-08T19:31:42Z,employee041@cloudora.example,192.0.2.11,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000095
+2026-08-08T19:47:47Z,employee096@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000020
+2026-08-08T20:48:33Z,employee068@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000118
+2026-08-08T21:19:38Z,employee085@cloudora.example,198.51.100.10,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000146
+2026-08-08T21:40:10Z,employee071@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000031
+2026-08-08T22:24:24Z,employee078@cloudora.example,198.51.100.11,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000105
+2026-08-09T10:51:03Z,employee107@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000155
+2026-08-09T10:52:42Z,employee048@cloudora.example,192.0.2.10,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000142
+2026-08-09T11:39:42Z,employee027@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000052
+2026-08-09T13:24:04Z,employee133@cloudora.example,192.0.2.11,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000090
+2026-08-09T13:40:19Z,employee096@cloudora.example,198.51.100.10,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000017
+2026-08-09T14:09:23Z,employee062@cloudora.example,192.0.2.12,GroupMembership,Project Team,Windows 11 Laptop,Add,Success,Routine project membership change,AUD-000160
+2026-08-09T14:15:04Z,employee014@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000003
+2026-08-09T17:58:39Z,employee106@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000010
+2026-08-09T19:25:13Z,employee135@cloudora.example,192.0.2.10,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000098
+2026-08-09T19:36:11Z,employee037@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000148
+2026-08-09T20:26:57Z,employee133@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000135
+2026-08-09T21:35:58Z,employee018@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000025
+2026-08-09T21:50:57Z,employee009@cloudora.example,198.51.100.11,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000096
+2026-08-09T22:23:20Z,employee095@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000002
+2026-08-09T23:45:46Z,employee042@cloudora.example,198.51.100.11,GroupMembership,Project Team,iPhone,Add,Success,Routine project membership change,AUD-000110
+2026-08-10T00:26:22Z,employee022@cloudora.example,198.51.100.11,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000111
+2026-08-10T02:20:13Z,employee034@cloudora.example,192.0.2.12,FileAccess,SharePoint,Windows 11 Desktop,Read,Success,Normal document access,AUD-000103
+2026-08-10T03:12:54Z,employee061@cloudora.example,192.0.2.12,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000128
+2026-08-10T06:13:31Z,employee123@cloudora.example,192.0.2.12,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000143
+2026-08-10T09:54:42Z,employee093@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000104
+2026-08-10T10:51:52Z,employee113@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,Windows 11 Desktop,Read,Success,Normal mailbox activity,AUD-000033
+2026-08-10T10:58:47Z,employee094@cloudora.example,192.0.2.10,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000115
+2026-08-10T13:16:49Z,employee055@cloudora.example,192.0.2.12,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000057
+2026-08-10T13:34:31Z,employee033@cloudora.example,198.51.100.11,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000097
+2026-08-10T14:22:00Z,daniel.reev@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,MacBook Pro,Read,Success,Normal mailbox activity.,AUD-000163
+2026-08-10T16:02:19Z,employee095@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000027
+2026-08-10T17:42:59Z,employee085@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000060
+2026-08-10T19:35:44Z,employee044@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000091
+2026-08-10T21:26:15Z,employee043@cloudora.example,192.0.2.12,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000007
+2026-08-11T00:04:29Z,omar.farro@cloudora.example,192.0.2.12,GroupMembership,Project Team,MacBook Pro,Add,Success,Routine project membership change,AUD-000132
+2026-08-11T00:41:54Z,employee116@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000131
+2026-08-11T03:10:58Z,employee110@cloudora.example,192.0.2.11,FileAccess,SharePoint,Windows 11 Laptop,Read,Success,Normal document access,AUD-000035
+2026-08-11T03:12:46Z,employee036@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000081
+2026-08-11T03:18:00Z,daniel.reev@cloudora.example,203.0.113.41,RegisterSecurityInfo,Authenticator App,Pixel 6,Register,Success,New authenticator/security information registered.,AUD-000161
+2026-08-11T03:31:00Z,daniel.reev@cloudora.example,203.0.113.41,New-InboxRule,Mailbox,Unknown Windows Device,Create,Success,"Rule name ""RSS subscriptions""; messages from finance or containing ""invoice"" moved to RSS feeds folder and marked as read.",AUD-000162
+2026-08-11T03:55:00Z,priya.shah@cloudora.example,203.0.113.42,RegisterSecurityInfo,Authenticator App,Unknown Mobile Device,Register,Success,New authenticator/security information registered.,AUD-000165
+2026-08-11T04:03:00Z,priya.shah@cloudora.example,203.0.113.42,New-InboxRule,Mailbox,Unknown Windows Device,Create,Success,"Rule name ""Receipts""; messages containing ""invoice"" moved to an alternate folder and marked as read.",AUD-000166
+2026-08-11T04:19:53Z,employee120@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,MacBook Pro,Read,Success,Normal mailbox activity,AUD-000068
+2026-08-11T05:00:46Z,employee134@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,MacBook Pro,SignIn,Success,Normal device authentication,AUD-000056
+2026-08-11T05:33:12Z,employee112@cloudora.example,198.51.100.10,GroupMembership,Project Team,Windows 11 Laptop,Add,Success,Routine project membership change,AUD-000008
+2026-08-11T07:57:45Z,employee021@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000024
+2026-08-11T08:45:00Z,daniel.reev@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,MacBook Pro,Read,Success,Normal mailbox activity.,AUD-000164
+2026-08-11T10:12:10Z,employee050@cloudora.example,198.51.100.11,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000093
+2026-08-11T10:15:47Z,employee042@cloudora.example,192.0.2.10,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000083
+2026-08-11T10:33:41Z,employee095@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,Windows 11 Desktop,SignIn,Success,Normal device authentication,AUD-000058
+2026-08-11T11:46:54Z,employee119@cloudora.example,198.51.100.10,FileAccess,SharePoint,MacBook Pro,Read,Success,Normal document access,AUD-000049
+2026-08-11T12:09:44Z,employee041@cloudora.example,192.0.2.10,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000053
+2026-08-11T12:56:53Z,employee146@cloudora.example,192.0.2.10,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000023
+2026-08-11T13:36:25Z,employee090@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,Windows 11 Laptop,SignIn,Success,Normal device authentication,AUD-000042
+2026-08-11T16:11:59Z,employee041@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,Windows 11 Laptop,Read,Success,Normal mailbox activity,AUD-000125
+2026-08-11T17:05:50Z,employee086@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000113
+2026-08-11T17:11:38Z,employee061@cloudora.example,198.51.100.10,DeviceSignIn,Corporate Device,Windows 11 Desktop,SignIn,Success,Normal device authentication,AUD-000116
+2026-08-11T17:13:50Z,employee024@cloudora.example,198.51.100.10,MailboxAccess,Mailbox,iPhone,Read,Success,Normal mailbox activity,AUD-000078
+2026-08-11T17:58:09Z,employee114@cloudora.example,192.0.2.11,GroupMembership,Project Team,Android Phone,Add,Success,Routine project membership change,AUD-000022
+2026-08-11T22:02:30Z,employee111@cloudora.example,192.0.2.11,GroupMembership,Project Team,Windows 11 Desktop,Add,Success,Routine project membership change,AUD-000076
+2026-08-11T22:52:19Z,employee099@cloudora.example,192.0.2.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000029
+2026-08-11T23:15:47Z,employee055@cloudora.example,192.0.2.11,FileAccess,SharePoint,iPhone,Read,Success,Normal document access,AUD-000070
+2026-08-11T23:20:01Z,employee101@cloudora.example,198.51.100.11,DeviceSignIn,Corporate Device,Android Phone,SignIn,Success,Normal device authentication,AUD-000089
+2026-08-11T23:24:15Z,employee065@cloudora.example,192.0.2.11,DeviceSignIn,Corporate Device,iPhone,SignIn,Success,Normal device authentication,AUD-000149
+2026-08-11T23:27:46Z,employee024@cloudora.example,192.0.2.11,MailboxAccess,Mailbox,Android Phone,Read,Success,Normal mailbox activity,AUD-000150

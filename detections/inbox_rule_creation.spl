@@ -1,0 +1,6 @@
+# New Inbox Rule Creation
+
+index=cloudora sourcetype=cloudora:audit
+| search operation="New-InboxRule" action="Create" result="Success"
+| table _time, user, src_ip, operation, target, device, action, result, details
+| sort 0 _time

@@ -1,0 +1,54 @@
+# Cloudora Investigation Queries
+
+## 01 - Initial CEO Triage
+index=cloudora sourcetype=cloudora:signin user="Daniel Reev"
+| sort 0 _time
+
+## 02 - Suspicious Source IPs
+index=cloudora sourcetype=cloudora:signin user="Daniel Reev"
+| stats count by src_ip
+| sort - count
+
+## 03 - CEO Baseline
+index=cloudora sourcetype=cloudora:signin user="Daniel Reev"
+| stats count by country, city, src_ip, device
+| sort - count
+
+## 04 - Suspicious IP Sequence
+index=cloudora sourcetype=cloudora:signin user="Daniel Reev" src_ip="203.0.113.41"
+| table _time, user, src_ip, city, country, application, device, result, result_code, result_description
+| sort 0 _time
+
+## 05 - CEO Audit Correlation
+index=cloudora sourcetype=cloudora:audit user="Daniel Reev"
+| table _time, user, src_ip, operation, target, device, action, result, details
+| sort 0 _time
+
+## 06 - Full CEO Timeline
+index=cloudora user="Daniel Reev"
+| table _time, sourcetype, src_ip, city, country, application, operation, device, result, result_code, details
+| sort 0 _time
+
+## 07 - Suspicious IP Scope
+index=cloudora sourcetype=cloudora:signin
+| where like(src_ip,"203.0.113.%")
+| stats dc(user) as unique_targeted_accounts
+
+## 08 - Successful Suspicious Authentication
+index=cloudora sourcetype=cloudora:signin
+| search result="Success" 
+| where like(src_ip,"203.0.113.%")
+| table _time, user, src_ip, city, country, application, device, result, result_code
+| sort 0 _time
+
+## 09 - Network IOC Summary
+index=cloudora sourcetype=cloudora:signin
+| where like(src_ip,"203.0.113.%")
+| stats count by src_ip, country, city
+| sort src_ip
+
+## 10 - CEO Impact Audit
+index=cloudora sourcetype=cloudora:audit user="Daniel Reev"
+| search src_ip="203.0.113.41"
+| table _time, operation, target, device, action, result, details
+| sort 0 _time

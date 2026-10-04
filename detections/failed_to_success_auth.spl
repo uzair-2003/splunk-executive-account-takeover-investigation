@@ -1,0 +1,6 @@
+# Failed Authentication Followed by Success
+
+index=cloudora sourcetype=cloudora:signin
+| stats count(eval(result_code=50126)) as failed_attempts, count(eval(result="Success")) as successful_attempts by src_ip, user
+| where failed_attempts >= 3 AND successful_attempts >= 1
+| sort - failed_attempts
